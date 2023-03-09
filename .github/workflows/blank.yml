@@ -21,8 +21,9 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run:  Start-Process -FilePath "F:\UnityPlayground_test\GitActionsTest\Build\deploy.sh"  -Wait
+        run:  Start-Process -FilePath "F:\UnityPlayground_test\GitActionsTest\Build\deploy.sh"  -Wait, Start-Process -FilePath "F:\UnityPlayground_test\GitActionsTest\Build\deploy.sh"  -Wait
         
+  
         
 
       # Runs a set of commands using the runners shell
