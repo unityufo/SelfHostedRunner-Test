@@ -21,7 +21,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: F:\UnityPlayground_test\GitActionsTest\Build\deploy.sh
+        run: bash F:\UnityPlayground_test\GitActionsTest\Build\deploy.sh
         
         
 
